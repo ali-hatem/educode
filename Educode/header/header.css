@@ -1,0 +1,29 @@
+.logo{
+  width: 100px;
+}
+.point{
+  cursor: pointer;
+}
+.topbar{
+background:linear-gradient(90deg,#5f63ff,#7a49ff);
+color:white;
+padding:20px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo-pill{
+background:white;
+color:#5f63ff;
+padding:6px 18px;
+border-radius:25px;
+font-weight:600;
+}
+
+.avatar{
+width:45px;
+height:45px;
+border-radius:50%;
+background:#ddd;
+}

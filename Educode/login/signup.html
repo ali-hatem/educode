@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class=" d-flex justify-content-center align-items-center h-100">
+      <form class="form-container w-25 p-5 text-capitalize" action="../quiz/quiz.html">
+        <div class="col-md-12 d-flex">
+          <label class="image-checkbox-label" for="myCheckbox">
+            <input
+              type="radio"
+              name="avatar"
+              id="myCheckbox"
+              class="image-checkbox-input"
+              checked
+            />
+            <img src="https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671142.jpg?semt=ais_hybrid&w=740&q=80" alt="user 1" class="img-fluid rounded-circle">
+            <i class="fa fa-check hidden-icon"></i>
+          </label>
+          <label class="image-checkbox-label" for="myCheckbox2">
+            <input
+              type="radio"
+              name="avatar"
+              id="myCheckbox2"
+              class="image-checkbox-input"
+            />
+            <img src="https://img.freepik.com/free-psd/3d-illustration-with-online-avatar_23-2151303097.jpg?semt=ais_user_personalization&w=740&q=80" alt="user 2" class="img-fluid rounded-circle">
+            <i class="fa fa-check hidden-icon"></i>
+          </label>
+          <label class="image-checkbox-label" for="myCheckbox3">
+            <input
+              type="radio"
+              name="avatar"
+              id="myCheckbox3"
+              class="image-checkbox-input"
+            />
+            <img src="https://img.freepik.com/premium-psd/3d-rendering-hair-style-avatar-design_23-2151869171.jpg?semt=ais_wordcount_boost&w=740&q=80" alt="user 3" class="img-fluid rounded-circle">
+            <i class="fa fa-check hidden-icon"></i>
+          </label>
+        </div>
+        <div class="my-3">
+          <label for="email" class="form-label">email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="my-3">
+          <label for="formGroupExampleInput" class="form-label"
+            >user name</label
+          >
+          <input type="text" class="form-control" id="formGroupExampleInput" required />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >password</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="formGroupExampleInput2" required
+          />
+        </div>
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>choose your grade</option>
+          <option value="Prep-One">Prep One</option>
+          <option value="Prep-Two">Prep Two</option>
+          <option value="Prep-Three">Prep Three</option>
+          <option value="high-One">high One</option>
+          <option value="high-Two">high Two</option>
+          <option value="high-Three">high Three</option>
+        </select>
+        <div class="col-12 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required />
+            <label class="form-check-label" for="gridCheck">
+              accept the terms
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary sub-btn" onclick="saveAvatar(), window.location.href='../subject/subject.html'">Sign up</button>
+        </div>
+        <div class="mb-3">
+          already have an account? <a href="login.html">sign in</a>
+        </div>
+      </form>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
