@@ -1,0 +1,61 @@
+:root {
+  --body-bg: #ffff;
+  --main-bg: #7a5cff;
+  --section-bg: #f6f7fb;
+  --footer-color: #2c2f5b;
+  --star-color: #ffd54f;
+  --button-color: #6a5cff;
+  
+}
+body{
+    background-image: linear-gradient(#f6f4fe, #f6f4fe, #e3dffe);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+
+.sub-btn{
+    background-color: #6053ed;
+}
+
+form{
+    background-color: #fcf9fe;
+}
+
+.image-checkbox-input {
+  display: none;
+}
+
+.image-checkbox-label img {
+  border: 4px solid transparent;
+  cursor: pointer;
+}
+
+.image-checkbox-input:checked + img {
+  border-color: #09ff00;
+}
+
+.image-checkbox-label {
+  position: relative;
+  display: inline-block;
+}
+
+.hidden-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: none;
+  color: #fff;
+  /* background-color: #09ff00; */
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.image-checkbox-input:checked + img {
+  border-color: var(--button-color);
+}
+
+.image-checkbox-input:checked ~ .hidden-icon {
+  display: block !important;
+}

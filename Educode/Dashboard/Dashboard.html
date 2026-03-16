@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+<body>
+    <nav id="header"></nav>
+
+
+
+<!-- Progress -->
+<div class="section">
+
+<h5 class="mb-3">Your Progress</h5>
+
+<div class="progress mb-2">
+<div class="progress-bar" style="width:40%"></div>
+</div>
+
+<p class="text-primary fw-semibold"> Course 40%</p>
+
+<hr>
+
+<!-- Continue Learning -->
+<h5 class="mb-3">Continue Learning</h5>
+
+<div class="lesson-card">
+
+<h6 class="text-primary">
+    <i class="fa-solid fa-user" style="color: rgb(122, 92, 255);"></i>
+ Lesson 4</h6>
+
+<hr>
+
+<p class="text-muted">Intro to variables</p>
+
+<button class="lesson-btn" onclick="window.location.href='../active lessons/active.html'">Start Lesson</button>
+
+</div>
+
+<!-- Subjects -->
+<h5 class="mt-5 mb-3">Subjects</h5>
+
+<div class="row g-3">
+
+  <div class="col-4">
+    <button class="subject-btn w-100" onclick="window.location.href='../subject/lessons.html'">Math</button>
+  </div>
+
+  <div class="col-4">
+    <button class="subject-btn w-100" onclick="window.location.href='../subject/lessons.html'">Science</button>
+  </div>
+
+  <div class="col-4">
+    <button class="subject-btn w-100" onclick="window.location.href='../subject/lessons.html'">English</button>
+  </div>
+
+</div>
+
+</div>
+
+<hr class="my-5">
+
+<!-- Ask Question -->
+<div class="ask-box">
+
+<input type="text" class="form-control border-0 shadow-none"
+placeholder="Ask a question....">
+
+<i class="fa-solid fa-comment-dots chat-icon"></i>
+
+</div>
+
+</div>
+
+</div>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../header/header.js"></script>
+</body>
+</html>

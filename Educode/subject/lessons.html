@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lessons</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="subject.css" />
+  </head>
+  <body>
+    <nav id="header"></nav>
+    <div class="container mt-5" style="max-width: 600px">
+      <div
+        class="lesson-bar bg-success-subtle d-flex justify-content-between align-items-center"
+      >
+        <span class="fw-bold">lesson 1 </span>
+        <span class="text-success"
+          ><i class="fa-regular fa-square-check"></i
+        ></span>
+      </div>
+
+      <div
+        class="lesson-bar bg-info-subtle active-border d-flex justify-content-between align-items-center"
+        onclick="window.location.href='../active lessons/active.html'"
+      >
+        <span class="fw-bold">lesson 2</span>
+        <span class="text-info"
+          ><i class="fa-solid fa-hourglass-half"></i
+        ></span>
+      </div>
+
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 3</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 4</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 5</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 6</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 7</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <div
+        class="lesson-bar bg-light d-flex justify-content-between align-items-center text-muted"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <span class="fw-bold">lesson 8</span>
+        <span><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <a href="#" class="btn btn-primary" onclick="window.location.href='subject.html'">change the subject</a>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              lesson not available
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              this lesson is not available now please complete the previous
+              lesson first
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../header/header.js"></script>
+  </body>
+</html>

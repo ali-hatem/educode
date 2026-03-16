@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="center d-flex justify-content-center align-items-center h-100">
+      <form class="form-container w-25 p-5 text-capitalize">
+        <div class="my-3">
+          <label for="email" class="form-label"
+          >email</label
+          >
+          <input
+          type="email"
+          class="form-control"
+          id="email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+          >password</label
+          >
+          <input
+          type="password"
+          class="form-control"
+          id="formGroupExampleInput2"
+          />
+        </div>
+        <div class="col-12 mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck"> remember me </label>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <button type="button" class="btn btn-primary sub-btn" onclick = "window.location.href = '../subject/subject.html' ">Sign in</button>
+        </div>
+        <div class="mb-3">
+          new to educode? <a href="signup.html">sign up</a>
+        </div>
+      </form>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
